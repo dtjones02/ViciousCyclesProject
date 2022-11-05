@@ -3,21 +3,6 @@
     box-sizing: border-box;
 }
 
-.row::after {
-    content: "";
-    clear: both;
-    display: table;
-}
-
-[class*="col-"] {
-    float: left;
-    padding: 15px;
-}
-
-/* For mobile phones: */
-[class*="col-"] {
-    width: 100%;
-}
 @media screen and (max-width: 480px) {
     body {
         margin: 10%;
@@ -41,6 +26,7 @@
         background-position: center;
         background-repeat: no-repeat;
         padding-top: 10%;
+        height: 30vh;
     }
     
     .logo img {
