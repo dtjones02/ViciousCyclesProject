@@ -18,8 +18,10 @@
 [class*="col-"] {
     width: 100%;
 }
-
-@media only screen and (min-width: 600px) {
+@media screen and (max-width: 480px) {
+    
+}
+@media screen and (min-width: 600px) {
     /* For tablet screens: */
     .col-1 {width: 8.33%;}
     .col-2 {width: 16.66%;}
@@ -35,7 +37,7 @@
     .col-12 {width: 100%;}
     }
 
-@media only screen and (min-width: 768px) {
+@media screen and (min-width: 768px) {
 /* For desktop screens: */
 .col-1 {width: 8.33%;}
 .col-2 {width: 16.66%;}
@@ -53,6 +55,9 @@
 
 body {
     background-color: gainsboro;
+    font-size: 70%;
+    font-family:Georgia, 'Times New Roman', Times, serif
+    font-color: black;
 }
 
 header h1 {
@@ -92,7 +97,7 @@ nav ul {
 
 nav ul li {
     display: inline-block;
-    border: 5px black;
+    border: 5px black double;
     list-style: none;
     margin: 20px 30px;
     color: red;
@@ -107,17 +112,20 @@ main {
 main figure img {
     float: left;
     padding: 15px;
+    max-width: 300px;
 }
 
 main section p {
     text-align: justify;
 }
-img {
-    background-size: contain;
-    max-height: 400px;
-    max-width: 400px;
-}
+
 footer {
     clear: both;
     background-color: white;
+}
+
+footer img {
+    width: 100px;
+    height: 100px;
+    text-align: center;
 }
