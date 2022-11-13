@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    box-sizing:border-box;
+}
+
+@media screen and (max-width: 480px) {
+    /*For Mobile Device */
+    body {
+        margin: 10%;
+        background-color: gainsboro;
+        font-size: 75%;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        color: black;
+        
+    }
+
+    h1 {
+        text-align: center;
+        padding: 5%;
+        background-color: burlywood;
+        
+    }
+    
+    form {
+        background-color:white;
+        padding-left: 5%;
+        padding-right: 5%;
+        width: 100%;
+        padding-top: 5%;
+        
+        
+    }
+
+    input[type="radio"]+ label {
+        display: inline-block;
+    }
+
+    input[type="checkbox"]+ label {
+        display: inline;
+        text-align:justify;
+    }
+
+    aside {
+       padding-top: 10%;
+    }
+}
