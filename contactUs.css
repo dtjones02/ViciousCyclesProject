@@ -44,3 +44,85 @@
        padding-top: 10%;
     }
 }
+
+@media screen and (min-width: 481px) {
+    /*For tablet Device */
+    body {
+        margin: 10%;
+        background-color: gainsboro;
+        font-size: 90%;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        color: black;
+        
+    }
+
+    h1 {
+        text-align: center;
+        padding: 5%;
+        background-color: burlywood;
+        
+    }
+    
+    form {
+        background-color:white;
+        padding-left: 15%;
+        padding-right: 5%;
+        width: 100%;
+        padding-top: 5%;
+        
+        
+    }
+
+    input[type="radio"]+ label {
+        display: inline;
+    }
+
+    input[type="checkbox"]+ label {
+        display: inline-block;
+        text-align:justify;
+    }
+
+    aside {
+       padding-top: 10%;
+    }
+}
+
+@media screen and (min-width: 760px) {
+    /*For Desktop Device */
+    body {
+        margin: 10%;
+        background-color: gainsboro;
+        font-size: 100%;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        color: black;
+        
+    }
+
+    h1 {
+        text-align: center;
+        padding: 5%;
+        background-color: burlywood;
+        
+    }
+    
+    form {
+        background-color:white;
+        padding-left: 15%;
+        padding-right: 5%;
+        width: 100%;
+        padding-top: 5%;
+        
+        
+    }
+
+    input[type="checkbox"]+ label {
+        display: inline;
+        text-align:justify;
+    }
+
+    aside {
+       padding-top: 10%;
+       margin-left: 40%;
+       margin-right: -40%;
+    }
+}
