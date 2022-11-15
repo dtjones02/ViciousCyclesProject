@@ -1,0 +1,176 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@media screen and (max-width: 480px) {
+    /* mobile devices */
+    body {
+        margin: 10%;
+        background-color: gainsboro;
+        font-size: 75%;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        color: black;
+    }
+
+    body img{
+        align: center;
+        width: 120px;
+        height 200px;
+        display: block;
+        margin: auto;
+    }
+
+    body #content-wrap p {
+        padding: 5px;
+    }
+
+    h1 {
+        color: goldenrod;
+        text-align: center;
+        padding: 15px;
+    }
+
+    #page-container {
+        position: relative;
+        min-height: 100vh;
+    }
+
+    #content-wrap {
+        padding-bottom: 2.5rem;
+    }
+
+    #footer {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        height: 7rem;
+        background-color: white; 
+        text-align: center; 
+        padding: 5px 0px;
+        font-size: 70%;
+    }
+
+    footer img{
+        width: 25px;
+        height: 25px;
+        display: inline;
+    }
+
+    
+}
+
+@media screen and (min-width: 481px) {
+    /* tablet devices */
+    body {
+        margin: 10%;
+        background-color: crimson;
+        font-size: 85%;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        color: black;
+    }
+
+    body img{
+        align: center;
+        width: 240px;
+        height 300px;
+        display: block;
+        margin: auto;
+    }
+
+    body #content-wrap p {
+        padding: 5px;
+    }
+
+    h1 {
+        color: goldenrod;
+        text-align: center;
+        padding: 15px;
+    }
+
+    #page-container {
+        position: relative;
+        min-height: 100vh;
+    }
+
+    #content-wrap {
+        padding-bottom: 2.5rem;
+    }
+
+    #footer {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        height: 7rem;
+        background-color: white; 
+        text-align: center; 
+        padding: 5px 0px;
+        font-size: 70%;
+    }
+
+    footer img{
+        width: 25px;
+        height: 25px;
+        display: inline;
+    }
+
+    
+}
+
+@media screen and (min-width: 768px) {
+    /* Desktop */
+    body {
+        margin: 10%;
+        background-color: cornflowerblue;
+        font-size: 100%;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        color: black;
+    }
+
+    body img{
+        align: center;
+        width: 320px;
+        height 400px;
+        display: block;
+        margin: auto;
+    }
+
+    body #content-wrap p {
+        padding: 5px;
+        font-size: 12px;
+    }
+
+    h1 {
+        color: goldenrod;
+        text-align: center;
+        padding: 15px;
+    }
+
+    #page-container {
+        position: relative;
+        min-height: 100vh;
+    }
+
+    #content-wrap {
+        padding-bottom: 2.5rem;
+    }
+
+    #footer {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        height: 8rem;
+        background-color: white; 
+        text-align: center; 
+        padding: 5px 0px;
+        font-size: 70%;
+    }
+
+    footer img{
+        width: 25px;
+        height: 25px;
+        display: inline;
+    }
+
+    
+}
