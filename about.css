@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@media screen and (max-width: 480px) {
+    /* mobile devices */
+    body {
+        margin: 10%;
+        background-color: gainsboro;
+        font-size: 75%;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        color: black;
+    }
+
+    h1 {
+        color: goldenrod;
+        text-align: center;
+        padding: 15px;
+    }
+
+    #page-container {
+        position: relative;
+        min-height: 100vh;
+    }
+
+    #content-wrap {
+        padding-bottom: 2.5rem;
+    }
+
+    #footer {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        height: 9rem;
+        background-color: white; 
+        text-align: center; 
+        padding: 5px 0px;
+    }
+
+    footer img{
+        width: 25px;
+        height: 25px;
+    }
+
+    footer #socials {
+        display: inline-block;
+    }
+}
