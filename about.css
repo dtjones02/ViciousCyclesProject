@@ -16,7 +16,6 @@
     body img{
         align: center;
         width: 120px;
-        height 200px;
         display: block;
         margin: auto;
     }
@@ -59,38 +58,82 @@
     .banner {
         background: url(../viciousCyclesProject/images/bwbikes.jpg);
         position: relative;
-        height: 40vh;
+        height: 30vh;
         overflow: hidden;
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
-        padding-top: 10%;
-        height: 30vh;
+        padding: 8%;
     }
     
     .logo img {
         width: 80%;
         text-align: center;
         position: absolute;
-        margin: auto 10%;
+        margin: 15% auto;
         background-color: white;
     }
-    
-    nav {
-        width: 100%;
-        padding: 10px 0;
+    .navbar {
         text-align: center;
+        background: white;
+        height:min-content;
+        font-size: 70%;
+        
     }
-    
-    nav ul {
-        background-color: white;
-        width: 100%;
-        height: 30%;
-        margin-top: 50px;
+    .navbar ul {
+        
         list-style: none;
+        color: black;
+        text-align: left;
         padding: 5px;
+        border: 2px solid black;
     }
-    
+    .navbar ul li {
+        width: 100%;
+        margin: 0px;
+        padding: 3px;
+        display: block;
+        
+    }
+    .navbar ul li a {
+        text-decoration: none;
+        color: black;
+    }
+    .navbar ul li:hover {
+        background-color: rgba(163,98,10,255);
+        border-radius: 4%;
+        padding: 2%;
+        font-size: 15px;
+        text-align: left;
+      
+    }
+    .sub-menu-1 {
+        display: none;
+        padding: 1px;
+    }
+    .navbar ul li:hover .sub-menu-1 {
+        display: block;
+        position: absolute;
+        background: none;
+        margin-top: -65px;
+        padding-bottom: 2px;
+        margin-left: 95px;
+        font-size: .75em;
+    }
+    .navbar ul li:hover .sub-menu-1 ul {
+        display: block;
+        margin: 0px;
+    }
+    .navbar ul li:hover .sub-menu-1 ul li {
+        width: 100%;
+        padding: 10px;
+        border-bottom: 1px solid black;
+        background: gold;
+        border-radius: 0;
+        text-align: center;
+        margin: 0 auto;
+        
+    }
     
     #content-wrap {
         width: 100%;
@@ -99,14 +142,10 @@
         text-align: justify;
         padding-bottom: 10px;
     }
-    #content-wrap figure img {
-        float: left;
-        padding: 15px;
-        max-width: 400px;
-    }
-    
+   
     #content-wrap section p {
         text-align: justify;
+        padding-bottom: 5px;
     }
 
     
@@ -115,18 +154,10 @@
 
 @media screen and (min-width: 481px) {
     /* tablet devices */
-    body {
-        margin: 10%;
-        background-color: crimson;
-        font-size: 85%;
-        font-family: Georgia, 'Times New Roman', Times, serif;
-        color: black;
-    }
-
+   
     body img{
         align: center;
-        width: 240px;
-        height 300px;
+        width: 320px;
         display: block;
         margin: auto;
     }
@@ -188,31 +219,64 @@
         background-position: center;
         background-repeat: no-repeat;
         padding-top: 10%;
-        height: 30vh;
     }
     
     .logo img {
-        width: 80%;
+        width: 60%;
         text-align: center;
         position: absolute;
-        margin: auto 10%;
+        margin: 15% 10%;
         background-color: white;
-        padding: 5px;
     }
-    
-    nav {
-        width: 100%;
-        padding-bottom: 10px;
+    .navbar {
+        background: white;
         text-align: center;
+        font: black;
+        
+        
     }
-    
-    nav ul {
-        background-color: white;
-        width: 100%;
-        height: 15%;
-        margin-top: 10px;
+    .navbar ul {
+        display: inline-flex;
         list-style: none;
+        color: black;
+    }
+    .navbar ul li {
+        width: 100%;
+        margin: 0px;
+        padding: 1px;
+    }
+    .navbar ul li a {
+        text-decoration: none;
+        color: black;
+    }
+    .navbar ul li:hover {
+        background-color: red;
+        border-radius: 5px;
+    }
+    .sub-menu-1 {
+        display: none;
+    }
+    .navbar ul li:hover .sub-menu-1 {
+        display: block;
+        position: absolute;
+        background: red;
+        padding-bottom: 2px;
+        /* margin-top: 1px; */
+        margin-left: -15px;
+        overflow: visible;
+    }
+    .navbar ul li:hover .sub-menu-1 ul {
+        display: block;
+        margin: 2px;
+    }
+    .navbar ul li:hover .sub-menu-1 ul li {
+        width: 150px;
         padding: 10px;
+        border-bottom: 1px dotted yellow;
+        background: greenyellow;
+        border-radius: 0;
+        text-align: left;
+
     }
     
     #content-wrap {
@@ -225,29 +289,22 @@
     #content-wrap figure img {
         float: left;
         padding: 15px;
-        max-width: 400px;
+        max-height: 300px;
     }
     
     #content-wrap section p {
         text-align: justify;
+        padding-bottom: 5px;
     }
     
 }
 
 @media screen and (min-width: 768px) {
     /* Desktop */
-    body {
-        margin: 10%;
-        background-color: cornflowerblue;
-        font-size: 100%;
-        font-family: Georgia, 'Times New Roman', Times, serif;
-        color: black;
-    }
-
+    
     body img{
         align: center;
-        width: 320px;
-        height 400px;
+        height: 400px;
         display: block;
         margin: auto;
     }
@@ -316,28 +373,58 @@
        width: 60%;
        text-align: center;
        position: absolute;
-       margin: auto 10%;
+       margin: 15% 10%;
        background-color: white;
     }
-    
-    nav {
-       width: 100%;
-       padding: 10px 0;
-       text-align: center;
+    .navbar {
+        background: white;
+        text-align: center;
+        font: black;
+        
+        
     }
-    
-    nav ul {
-       background: white;
-       width: 100%;
-       height: 30%;
-       margin-top: 40px;
-       list-style: none;
-       border: 5px black;
+    .navbar ul {
+        display: inline-flex;
+        list-style: none;
+        color: black;
     }
-    
-    nav ul li {
-       display: inline-block;
-       padding: 15px;
+    .navbar ul li {
+        width: 100%;
+        margin: 0px;
+        padding: 1px;
+    }
+    .navbar ul li a {
+        text-decoration: none;
+        color: black;
+    }
+    .navbar ul li:hover {
+        background-color: red;
+        border-radius: 5px;
+    }
+    .sub-menu-1 {
+        display: none;
+    }
+    .navbar ul li:hover .sub-menu-1 {
+        display: block;
+        position: absolute;
+        background: red;
+        padding-bottom: 2px;
+        /* margin-top: 1px; */
+        margin-left: -15px;
+        overflow: visible;
+    }
+    .navbar ul li:hover .sub-menu-1 ul {
+        display: block;
+        margin: 2px;
+    }
+    .navbar ul li:hover .sub-menu-1 ul li {
+        width: 150px;
+        padding: 10px;
+        border-bottom: 1px dotted yellow;
+        background: greenyellow;
+        border-radius: 0;
+        text-align: left;
+
     }
     
     #content-wrap {
@@ -350,7 +437,6 @@
     #content-wrap figure img {
        float: left;
        padding: 15px;
-       max-width: 400px;
     }
     
     #content-wrap section p {
