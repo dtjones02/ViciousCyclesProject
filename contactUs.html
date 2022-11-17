@@ -15,11 +15,20 @@
                     <ul>
                         <li><a href="index.html">Home</a></li>
                         <li><a href="about.html">About</a></li>
-                        <li><a href="shop.html">Shop</a></li>
+                        <li class="active"><a href="shop.html">Shop</a>
+                            <div class="sub-menu-1">
+                                <ul>
+                                    <li><a href="#">Mountain Bikes</a></li>
+                                    <li><a href="#">Road Bikes</a></li>
+                                    <li><a href="#">Accessories</a></li>
+                                </ul>
+                            </div>
+                        </li>
                         <li><a href="tradeShow.html">Trade Shows</a></li>
                         <li><a href="contactUs.html">Contact Us</a></li>
                     </ul> 
-                </nav>
+                </nav> <br>
+            
                 <div class="logo">
                     <img src="../viciousCyclesProject/images/vicious-cycles-logo.png" alt="vicious cylce logo"> 
                 </div>
@@ -44,7 +53,7 @@
                 <input type="text" id="first" name="first"><br><br>
                 <label for="last">Last Name:</label><br>
                 <input type="text" id="last" name="last"><br><br>
-                <label for="phone">Phone Number (###-###-####):</label><br>
+                <label for="phone">Phone Number<br>(###-###-####):</label><br>
                 <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"><br><br>
                 <label for="email">Email Address:</label><br>
                 <input type="email" id="email" name="email"><br><br>
@@ -53,7 +62,7 @@
                 <p><input type="radio" id="phone" name="contact" value="phone">
                 <label for="phone">Phone</label></p>
                 <p><input type="radio" id="email" name="contact" value="email">
-                <label for="email">Email</label></p><br><br>
+                <label for="email">Email</label></p><br>
 
                 <label for="language">Preferred Language?:</label><br>
                 <select name="language" id="language">
@@ -69,7 +78,7 @@
                 <p><input type="checkbox" id="road" name="road" value="Road">
                 <label for="road">Road Bike</label></p>
                 <p><input type="checkbox" id="accessories" name="accessories" value="Accessories">
-                <label for="accessories">Accessories</label></p><br><br>
+                <label for="accessories">Accessories</label></p><br>
 
 
                 <label for="help">How Can We Help You?:</label><br>
