@@ -17,7 +17,7 @@
     h1 {
         text-align: center;
         padding: 5%;
-        background-color: burlywood;
+        
         
     }
     
@@ -92,7 +92,7 @@
         bottom: 0;
         width: 100%;
         height: 7rem;
-        background-color: white; 
+        background-color: none; 
         text-align: center; 
         padding: 5px 0px;
         font-size: 70%;
@@ -204,8 +204,9 @@
     /*For tablet Device */
     body {
         margin: 10%;
-        background-color: gainsboro;
-        font-size: 90%;
+        height: 100vh;
+        background-color: tan;
+        font-size: 85%;
         font-family: Georgia, 'Times New Roman', Times, serif;
         color: black;
         
@@ -214,57 +215,39 @@
     h1 {
         text-align: center;
         padding: 5%;
-        background-color: burlywood;
         
     }
     
     form {
         background-color:white;
-        padding-left: 15%;
-        padding-right: 5%;
+        text-align: center;
         width: 100%;
         padding-top: 5%;
-        
-        
+        height: 80vh;
+        margin-top: 2%;
+        display: inline-block;
     }
 
     input[type="radio"]+ label {
         display: inline;
+        
     }
 
     input[type="checkbox"]+ label {
         display: inline-block;
         text-align:justify;
     }
-
-    aside {
-       padding-top: 10%;
-    }
-
-    body {
-        margin: 10%;
-        background-color: crimson;
-        font-size: 85%;
-        font-family: Georgia, 'Times New Roman', Times, serif;
-        color: black;
-    }
-
-    body img{
-        align: center;
-        width: 240px;
-        height 300px;
+    figure img {
         display: block;
-        margin: auto;
+        width: 200px;
+        margin: 0% auto;
     }
-
-    body #content-wrap p {
-        padding: 5px;
-    }
-
+    
     h1 {
-        color: goldenrod;
+        color: black;
         text-align: center;
-        padding: 15px;
+        padding: 5px;
+        margin-bottom: 5px;
     }
 
     #page-container {
@@ -272,37 +255,22 @@
         min-height: 100vh;
     }
 
-    #content-wrap {
-        padding-bottom: 2.5rem;
-    }
-
     #footer {
         position: absolute;
         bottom: 0;
         width: 100%;
         height: 7rem;
-        background-color: white; 
+        background-color: none; 
         text-align: center; 
         padding: 5px 0px;
         font-size: 70%;
+        margin-bottom: 10%;
     }
 
     footer img{
         width: 25px;
         height: 25px;
         display: inline;
-    }
-    body {
-        margin: 10%;
-        background-color: gainsboro;
-        font-size: 85%;
-        font-family:Georgia, 'Times New Roman', Times, serif;
-        color: black;
-    }
-    
-    header h1 {
-        text-align: center;
-        padding: 15px;
     }
     
     .banner {
@@ -314,7 +282,6 @@
         background-position: center;
         background-repeat: no-repeat;
         padding-top: 10%;
-        height: 30vh;
     }
     
     .logo img {
@@ -323,23 +290,70 @@
         position: absolute;
         margin: auto 10%;
         background-color: white;
-        padding: 5px;
     }
-    
-    nav {
-        width: 100%;
-        padding-bottom: 10px;
-        text-align: center;
+    .navbar {
+        background: white;
+        height: min-content;
+        font-size: 60%;
+        
     }
-    
-    nav ul {
-        background-color: white;
-        width: 100%;
-        height: 15%;
-        margin-top: 10px;
+    .navbar ul {
+        
         list-style: none;
-        padding: 10px;
+        color: black;
+        text-align: left;
+        padding: 3px;
+        border: 2px solid black;
     }
+    .navbar ul li {
+        width: 100%;
+        margin: 0px;
+        padding: 3px;
+        display: block;
+        
+    }
+    .navbar ul li a {
+        text-decoration: none;
+        color: black;
+    }
+    .navbar ul li:hover {
+        background-color: rgba(163,98,10,255);
+        border-radius: 4%;
+        padding: 2%;
+        font-size: 15px;
+        text-align: left;
+      
+    }
+    .sub-menu-1 {
+        display: none;
+        padding: 1px;
+    }
+    .navbar ul li:hover .sub-menu-1 {
+        display: block;
+        position: absolute;
+        background: none;
+        margin-top: -65px;
+        padding-bottom: 2px;
+        margin-left: 95px;
+        font-size: .75em;
+    }
+    .navbar ul li:hover .sub-menu-1 ul {
+        display: block;
+        margin: 10px;
+    }
+    .navbar ul li:hover .sub-menu-1 ul li {
+        width: 100%;
+        height: min-content;
+        padding: 4px;
+        border-bottom: 1px solid black;
+        background: gold;
+        border-radius: 0;
+        text-align: center;
+        margin: 0% auto;
+        float: right;
+        
+    }
+   
     
     #content-wrap {
         width: 100%;
@@ -347,11 +361,6 @@
         position: relative;
         text-align: justify;
         padding-bottom: 10px;
-    }
-    #content-wrap figure img {
-        float: left;
-        padding: 15px;
-        max-width: 400px;
     }
     
     #content-wrap section p {
