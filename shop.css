@@ -1,0 +1,457 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@media screen and (max-width: 480px) {
+    /* mobile devices */
+
+    body img{
+        align: center;
+        display: block;
+        margin: auto;
+    }
+
+    body #content-wrap p {
+        padding: 5px;
+        font-size: 12px;
+    }
+
+    h1 {
+        color: goldenrod;
+        text-align: center;
+        padding: 15px;
+    }
+
+    #page-container {
+        position: relative;
+        min-height: 100vh;
+    }
+
+    #content-wrap {
+        padding-bottom: 2.5rem;
+    }
+
+    #footer {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        height: 8rem;
+        background-color: white; 
+        text-align: center; 
+        padding: 5px 0px;
+        font-size: 70%;
+    }
+
+    footer img{
+        width: 25px;
+        height: 25px;
+        display: inline;
+    }
+    body {
+        margin: 10%;
+        background-color: gainsboro;
+        font-size: 100%;
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        color: black;
+       }
+    
+       header h1 {
+           text-align: center;
+           padding: 15px;
+       }
+    
+     .banner {
+        background: url(../viciousCyclesProject/images/bwbikes.jpg); 
+        position: relative;
+        height: 40vh;
+        overflow: hidden; 
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        padding: 8%;
+       }
+    
+    .logo img {
+       width: 60%;
+       text-align: center;
+       position: absolute;
+       margin: 15% 10%;
+       background-color: white;
+    }
+   
+    .navbar {
+        text-align: center;
+        background: white;
+        height:min-content;
+        font-size: 70%;
+        
+    }
+    .navbar ul {
+        
+        list-style: none;
+        color: black;
+        text-align: left;
+        padding: 5px;
+        border: 2px solid black;
+    }
+    .navbar ul li {
+        width: 100%;
+        margin: 0px;
+        padding: 3px;
+        display: block;
+        
+    }
+    .navbar ul li a {
+        text-decoration: none;
+        color: black;
+    }
+    .navbar ul li:hover {
+        background-color: rgba(163,98,10,255);
+        border-radius: 4%;
+        padding: 2%;
+        font-size: 15px;
+        text-align: left;
+      
+    }
+    .sub-menu-1 {
+        display: none;
+        padding: 1px;
+    }
+    .navbar ul li:hover .sub-menu-1 {
+        display: block;
+        position: absolute;
+        background: none;
+        margin-top: -65px;
+        padding-bottom: 2px;
+        margin-left: 95px;
+        font-size: .75em;
+    }
+    .navbar ul li:hover .sub-menu-1 ul {
+        display: block;
+        margin: 0px;
+    }
+    .navbar ul li:hover .sub-menu-1 ul li {
+        width: 100%;
+        padding: 10px;
+        border-bottom: 1px solid black;
+        background: gold;
+        border-radius: 0;
+        text-align: center;
+        margin: 0 auto;
+        
+    }
+    #content-wrap {
+       width: 100%;
+       margin: 0 auto;
+       position: relative;
+       text-align: justify;
+       padding-bottom: 10px;
+    }
+    #content-wrap figure img {
+       float: left;
+       padding: 15px;
+       max-width: 400px;
+    }
+    
+    #content-wrap section p {
+       text-align: justify;
+       padding-bottom: 5px;
+    }
+
+    
+    
+}
+@media screen and (min-width: 481px) {
+    /* tablet devices */
+
+    body img{
+        align: center;
+        display: block;
+        margin: auto;
+    }
+
+    body #content-wrap p {
+        padding: 5px;
+        font-size: 12px;
+    }
+
+    h1 {
+        color: goldenrod;
+        text-align: center;
+        padding: 15px;
+    }
+
+    #page-container {
+        position: relative;
+        min-height: 100vh;
+    }
+
+    #content-wrap {
+        padding-bottom: 2.5rem;
+    }
+
+    #footer {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        height: 8rem;
+        background-color: white; 
+        text-align: center; 
+        padding: 5px 0px;
+        font-size: 70%;
+    }
+
+    footer img{
+        width: 25px;
+        height: 25px;
+        display: inline;
+    }
+    body {
+        margin: 10%;
+        background-color: gainsboro;
+        font-size: 100%;
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        color: black;
+       }
+    
+       header h1 {
+           text-align: center;
+           padding: 15px;
+       }
+    
+     .banner {
+        background: url(../viciousCyclesProject/images/bwbikes.jpg); 
+        position: relative;
+        height: 40vh;
+        overflow: hidden; 
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        padding: 8%;
+       }
+    
+    .logo img {
+       width: 60%;
+       text-align: center;
+       position: absolute;
+       margin: 15% 10%;
+       background-color: white;
+    }
+   
+    .navbar {
+        background: white;
+        text-align: center;
+        font: black;
+        
+        
+    }
+    .navbar ul {
+        display: inline-flex;
+        list-style: none;
+        color: black;
+    }
+    .navbar ul li {
+        width: 100%;
+        margin: 0px;
+        padding: 1px;
+    }
+    .navbar ul li a {
+        text-decoration: none;
+        color: black;
+    }
+    .navbar ul li:hover {
+        background-color: red;
+        border-radius: 5px;
+    }
+    .sub-menu-1 {
+        display: none;
+    }
+    .navbar ul li:hover .sub-menu-1 {
+        display: block;
+        position: absolute;
+        background: red;
+        padding-bottom: 2px;
+        /* margin-top: 1px; */
+        margin-left: -15px;
+        overflow: visible;
+    }
+    .navbar ul li:hover .sub-menu-1 ul {
+        display: block;
+        margin: 2px;
+    }
+    .navbar ul li:hover .sub-menu-1 ul li {
+        width: 150px;
+        padding: 10px;
+        border-bottom: 1px dotted yellow;
+        background: greenyellow;
+        border-radius: 0;
+        text-align: left;
+
+    }
+    #content-wrap {
+       width: 100%;
+       margin: 0 auto;
+       position: relative;
+       text-align: justify;
+       padding-bottom: 10px;
+    }
+    #content-wrap figure img {
+       float: left;
+       padding: 15px;
+       max-width: 400px;
+    }
+    
+    #content-wrap section p {
+       text-align: justify;
+       padding-bottom: 5px;
+    }
+
+}
+@media screen and (min-width: 768px) {
+    /* Desktop */
+   
+    body img{
+        align: center;
+        display: block;
+        margin: auto;
+    }
+
+    body #content-wrap p {
+        padding: 5px;
+        font-size: 12px;
+    }
+
+    h1 {
+        color: goldenrod;
+        text-align: center;
+        padding: 15px;
+    }
+
+    #page-container {
+        position: relative;
+        min-height: 100vh;
+    }
+
+    #content-wrap {
+        padding-bottom: 2.5rem;
+    }
+
+    #footer {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        height: 8rem;
+        background-color: white; 
+        text-align: center; 
+        padding: 5px 0px;
+        font-size: 70%;
+    }
+
+    footer img{
+        width: 25px;
+        height: 25px;
+        display: inline;
+    }
+    body {
+        margin: 10%;
+        background-color: gainsboro;
+        font-size: 100%;
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        color: black;
+       }
+    
+       header h1 {
+           text-align: center;
+           padding: 15px;
+       }
+    
+     .banner {
+        background: url(../viciousCyclesProject/images/bwbikes.jpg); 
+        position: relative;
+        height: 40vh;
+        overflow: hidden; 
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        padding: 8%;
+       }
+    
+    .logo img {
+       width: 60%;
+       text-align: center;
+       position: absolute;
+       margin: 15% 10%;
+       background-color: white;
+    }
+   
+    .navbar {
+        background: white;
+        text-align: center;
+        font: black;
+        
+        
+    }
+    .navbar ul {
+        display: inline-flex;
+        list-style: none;
+        color: black;
+    }
+    .navbar ul li {
+        width: 100%;
+        margin: 0px;
+        padding: 1px;
+    }
+    .navbar ul li a {
+        text-decoration: none;
+        color: black;
+    }
+    .navbar ul li:hover {
+        background-color: red;
+        border-radius: 5px;
+    }
+    .sub-menu-1 {
+        display: none;
+    }
+    .navbar ul li:hover .sub-menu-1 {
+        display: block;
+        position: absolute;
+        background: red;
+        padding-bottom: 2px;
+        /* margin-top: 1px; */
+        margin-left: -15px;
+        overflow: visible;
+    }
+    .navbar ul li:hover .sub-menu-1 ul {
+        display: block;
+        margin: 2px;
+    }
+    .navbar ul li:hover .sub-menu-1 ul li {
+        width: 150px;
+        padding: 10px;
+        border-bottom: 1px dotted yellow;
+        background: greenyellow;
+        border-radius: 0;
+        text-align: left;
+
+    }
+    #content-wrap {
+       width: 100%;
+       margin: 0 auto;
+       position: relative;
+       text-align: justify;
+       padding-bottom: 10px;
+    }
+    #content-wrap figure img {
+       float: left;
+       padding: 15px;
+       max-width: 400px;
+    }
+    
+    #content-wrap section p {
+       text-align: justify;
+       padding-bottom: 5px;
+    }
+
+    
+}
