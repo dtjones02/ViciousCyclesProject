@@ -8,8 +8,6 @@
     
     body img{
         align: center;
-        width: 120px;
-        height 200px;
         display: block;
         margin: auto;
     }
@@ -175,8 +173,6 @@
 
     body img{
         align: center;
-        width: 320px;
-        height 400px;
         display: block;
         margin: auto;
     }
@@ -320,18 +316,9 @@
 }
 @media screen and (min-width: 768px) {
     /* Desktop */
-    body {
-        margin: 10%;
-        background-color: cornflowerblue;
-        font-size: 100%;
-        font-family: Georgia, 'Times New Roman', Times, serif;
-        color: black;
-    }
 
     body img{
         align: center;
-        width: 320px;
-        height 400px;
         display: block;
         margin: auto;
     }
